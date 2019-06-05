@@ -8,6 +8,9 @@
     "cypress": "cypress",
     "nightwatch": "cucumber-js --require cucumber.conf.js --require nightwatch/step-definitions --format node_modules/cucumber-pretty"
   },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
   "devDependencies": {
     "ava": "^2.0.0",
     "chromedriver": "^74.0.0",
