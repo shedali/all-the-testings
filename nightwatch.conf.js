@@ -1,4 +1,4 @@
-const chromedriver = require('chromedriver');
+const chromedriver = require("chromedriver");
 
 module.exports = {
   test_settings: {
@@ -7,10 +7,11 @@ module.exports = {
         start_process: true,
         server_path: chromedriver.path,
         port: 4444,
-        cli_args: ['--port=4444']
+        cli_args: ["--port=4444"]
       },
       desiredCapabilities: {
-        browserName: 'chrome'
+        browserName: "chrome",
+        args: ["disable-web-security", "ignore-certificate-errors", "headless"]
       }
     }
   }
