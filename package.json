@@ -1,0 +1,19 @@
+{
+  "name": "all-the-testings",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "cypress": "cypress",
+    "nightwatch": "nightwatch"
+  },
+  "devDependencies": {
+    "ava": "^2.0.0",
+    "cucumber": "^5.1.0",
+    "cypress": "^3.3.1",
+    "cypress-cucumber-preprocessor": "^1.11.2",
+    "jasmine": "^3.4.0",
+    "mocha": "^6.1.4",
+    "nightwatch-cucumber": "^9.1.3"
+  }
+}
