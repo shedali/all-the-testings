@@ -1,5 +1,6 @@
 {
   "name": "all-the-testings",
+  "description": "demonstration of multiple test runners from shared specs",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
