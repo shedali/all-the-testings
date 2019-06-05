@@ -5,15 +5,19 @@
   "license": "MIT",
   "scripts": {
     "cypress": "cypress",
-    "nightwatch": "nightwatch"
+    "nightwatch": "cucumber-js --require cucumber.conf.js --require nightwatch/step-definitions --format node_modules/cucumber-pretty"
   },
   "devDependencies": {
     "ava": "^2.0.0",
+    "chromedriver": "^74.0.0",
     "cucumber": "^5.1.0",
+    "cucumber-html-reporter": "^5.0.0",
+    "cucumber-pretty": "^1.5.0",
     "cypress": "^3.3.1",
     "cypress-cucumber-preprocessor": "^1.11.2",
     "jasmine": "^3.4.0",
     "mocha": "^6.1.4",
-    "nightwatch-cucumber": "^9.1.3"
+    "nightwatch": "^1.1.11",
+    "nightwatch-api": "^2.3.0"
   }
 }
