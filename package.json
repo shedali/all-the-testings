@@ -7,7 +7,7 @@
   "scripts": {
     "cypress": "cypress-tags run -e TAGS='not @crossbrowser and (@cypress or @integration)'",
     "nightwatch": "cucumber-js --tags @crossbrowser --require cucumber.conf.js --require nightwatch/step-definitions --format node_modules/cucumber-pretty",
-    "e2e": "npm-run-all cypress nightwatch"
+    "e2e": "npm-run-all -p cypress nightwatch"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false,
